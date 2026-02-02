@@ -37,9 +37,10 @@
           <li><a href="#about">About</a></li>
           <li><a href="#offsec">Offensive Security</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Labs & CTFs</a></li>
           <li><a href="#certs">Certifications</a></li>
+          <li><a href="#achievements">Achievements</a></li>
           <li><a href="#blog">Blog</a></li>
+          <li><a href="#projects">Projects & CTFs</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -55,19 +56,19 @@
 
         <div class="hero-title-wrap">
           <h1 class="hero-title">
-            Helping you find vulnerabilities <span>before</span> attackers do.
+            Helping you find vulnerabilities before attackers do.
           </h1>
           <div class="hero-title-glow"></div>
         </div>
 
-        <p class="hero-subtitle typewriter">
-          Junior Penetration Tester specializing in web and network security,
-          Active Directory assessments, and realistic adversary-style attack simulations.
+        <p class="hero-subtitle">
+          Junior Penetration Tester specializing in web and network security, Active Directory assessments, and
+          realistic adversary-style attack simulations.
         </p>
 
         <div class="hero-buttons">
-          <a href="#projects" class="btn primary">View Labs &amp; CTF Work</a>
-          <a href="#offsec" class="btn outline">See Offensive Skillset</a>
+          <a href="#projects" class="btn primary">View Attack Simulations</a>
+          <a href="#offsec" class="btn outline">Review Methodology</a>
         </div>
       </div>
 
@@ -78,30 +79,30 @@
 
           <div class="hero-stats">
             <div class="stat">
-              <span class="stat-number">Continuous Learner</span>
-              <span class="stat-label">in Offensive Security</span>
+              <span class="stat-number">Focus</span>
+              <span class="stat-label">Enterprise Security </span>
             </div>
             <div class="stat">
-              <span class="stat-number">Aspiring</span>
-              <span class="stat-label">Offensive Security Professional</span>
+              <span class="stat-number">Role</span>
+              <span class="stat-label">Penetration Tester</span>
             </div>
             <div class="stat">
-              <span class="stat-number">Hack The Box</span>
-              <span class="stat-label">Player</span>
+              <span class="stat-number">Status</span>
+              <span class="stat-label">Certified (CRTP, eJPT, CRTA, CNSP)</span>
             </div>
           </div>
 
           <div class="hero-card-footer">
-            <span class="hero-pill">Labs &amp; CTF-focused</span>
             <span class="hero-pill">Active Directory</span>
-            <span class="hero-pill">Web &amp; Network</span>
+            <span class="hero-pill">Web Security</span>
+            <span class="hero-pill">Network Security</span>
           </div>
         </div>
       </div>
     </div>
 
     <div class="scroll-indicator">
-      <span>Scroll to enter the lab</span>
+      <span>Scroll to About Me</span>
       <div class="scroll-line"></div>
     </div>
   </section>
@@ -111,50 +112,33 @@
     <div class="container section-grid">
 
       <!-- LEFT — About text -->
-      <div>
+      <div class="about-content">
         <h2 class="section-title">About Me</h2>
         <p>
-          I’m Rakib Mahmud Nadir, an aspiring offensive security engineer with over two years of focused, self-driven
-          learning in penetration testing, vulnerability assessment, and ethical hacking. I’ve built my foundations
-          through hands-on practice rather than theory alone, spending most of my time designing and attacking realistic
-          lab environments, Active Directory test networks, and CTF-style challenge scenarios. For me, the learning
-          process doesn’t end at exploitation. I prioritize understanding root causes, documenting attack paths, and
-          mapping every finding back to practical remediation and defensive hardening.
-        </p>
-        <p>
-          My core interests lie in red team tradecraft, adversary-style attack simulation, and the intersection between
-          offensive security techniques and real-world defensive controls. I am especially focused on Active Directory
-          security, privilege escalation paths, Kerberos-based attacks, and common configuration weaknesses that lead to
-          enterprise compromise. Alongside this, I actively study web application security aligned with the OWASP Top
-          10, where I enjoy converting theoretical vulnerabilities into reproducible lab exercises, walkthroughs, and
-          small research-driven projects.
+          I am an offensive security practitioner focused on web application security, network penetration testing, and
+          Active Directory
+          assessments. My work emphasizes manual enumeration, attack-path discovery, and controlled
+          exploitation to demonstrate how real-world breaches occur, rather than relying solely on automated scanning
+          tools. My experience is built through extensive hands-on practice in realistic lab environments, Active
+          Directory test networks, and CTF-style scenarios. I specialize in identifying misconfigurations, abusing
+          identity and access weaknesses, and validating exploitation paths across web and internal networks. Beyond
+          exploitation, I document root causes and provide clear remediation guidance to help defensive teams reduce
+          real risk, while currently pursuing my studies at Khulna University of Engineering and Technology (KUET)
+          in Khulna, Bangladesh.
+
         </p>
       </div>
 
-      <!-- Hero Card -->
-      <div class="hero-card">
-        <div class="hero-photo">
-          <img src="image/rakib.png" alt="Rakib Mahmud Nadir" />
-        </div>
-
-        <div class="hero-info">
-          <h3>Offensive Security Focus</h3>
-          <p>
-            I work through full attack chains in controlled environments –
-            from reconnaissance and initial access to privilege escalation and
-            post-exploitation – then translate them into clear remediation steps.
-          </p>
-          <div class="hero-badges">
-            <span>Web App Exploitation</span>
-            <span>Active Directory Attacks</span>
-            <span>Red Team</span>
-          </div>
+      <!-- RIGHT — Profile Image -->
+      <div class="about-media">
+        <div class="about-photo-card">
+          <img src="image/rakib.png" alt="Rakib Mahmud Nadir portrait" class="about-photo" />
         </div>
       </div>
     </div>
 
     <div class="scroll-indicator">
-      <span>Scroll to enter the lab</span>
+      <span>Scroll to view methodology</span>
       <div class="scroll-line"></div>
     </div>
   </section>
@@ -164,73 +148,58 @@
     <div class="container">
       <h2 class="section-title">Offensive Security Methodology</h2>
       <p class="section-intro">
-        I follow a structured approach to attacking lab environments that mirrors
-        how real adversaries operate while staying ethical and controlled.
+        Adversary-aligned testing focused on realistic attack paths and business risk.
       </p>
 
       <div class="kill-chain">
         <div class="kill-step">
           <span class="step-id">01</span>
-          <h3>Recon &amp; Enumeration</h3>
+          <h3>Reconnaissance</h3>
           <p>
-            Map attack surface with Nmap, directory brute-forcing, and service
-            fingerprinting to identify exposed assets, misconfigurations, and weak
-            entry points.
+            Identify exposed assets and entry points.
           </p>
         </div>
         <div class="kill-step">
           <span class="step-id">02</span>
           <h3>Initial Access</h3>
           <p>
-            Exploit web and network vulnerabilities, craft Metasploit payloads, and
-            leverage weak credentials to obtain controlled initial footholds.
+            Gain controlled footholds through misconfigurations or logic flaws.
           </p>
         </div>
         <div class="kill-step">
           <span class="step-id">03</span>
-          <h3>Privilege Escalation</h3>
+          <h3>Post-Exploitation</h3>
           <p>
-            Perform local enumeration, abuse misconfigurations, and execute AD-style
-            attacks to move from low-privilege to higher-impact access in the environment.
+            Escalate privileges and move laterally to demonstrate impact.
           </p>
         </div>
         <div class="kill-step">
           <span class="step-id">04</span>
-          <h3>Post-Exploitation &amp; Reporting</h3>
+          <h3>Reporting</h3>
           <p>
-            Demonstrate impact in a controlled way, maintain access where appropriate,
-            and convert technical findings into clear, actionable reports for teams
-            to remediate.
+            Document attack paths and remediation priorities.
           </p>
         </div>
       </div>
 
       <div class="skills-grid">
         <div class="skill-card">
-          <h3>Core Offensive Skills</h3>
+          <h3>Core Capabilities</h3>
           <ul>
-            <li>Web and network penetration testing</li>
-            <li>Vulnerability assessment &amp; risk triage</li>
-            <li>Active Directory and internal lab attacks</li>
-            <li>CTF and homelab attack simulations</li>
+            <li>Active Directory security assessments</li>
+            <li>Network and internal penetration testing</li>
+            <li>Web application security testing (OWASP)</li>
+            <li>Attack-path identification and validation</li>
           </ul>
         </div>
+
         <div class="skill-card">
-          <h3>Tools &amp; Platforms</h3>
+          <h3>Professional Approach</h3>
           <ul>
-            <li>Burp Suite, Metasploit, Nmap, Wireshark</li>
-            <li>Hashcat &amp; password attack workflows</li>
-            <li>Hack The Box &amp; TryHackMe labs</li>
-            <li>Linux &amp; Windows offensive tooling</li>
-          </ul>
-        </div>
-        <div class="skill-card">
-          <h3>Professional Mindset</h3>
-          <ul>
-            <li>Adversary-focused but defensive-aware</li>
-            <li>Clear, concise technical reporting</li>
-            <li>Collaboration with dev &amp; security teams</li>
-            <li>Continuous research and skill development</li>
+            <li>Manual, logic-driven testing over automation</li>
+            <li>Risk-focused assessment based on impact</li>
+            <li>Ethical, controlled, and scoped engagements</li>
+            <li>Clear, actionable communication</li>
           </ul>
         </div>
       </div>
@@ -247,22 +216,22 @@
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <h3>Assistant Mentor — Offensive Security (Remote)</h3>
-            <p class="timeline-meta">Hack Secure · India · Dec 2025 — Present</p>
+            <p class="timeline-meta">Hack Secure · India · Dec 2024 — Present</p>
             <ul>
               <li>
-                Guide and support cybersecurity interns through structured penetration-testing
-                exercises, lab environments, and CTF-style challenges.
+                Guide and support cybersecurity interns through structured penetration-testing exercises, lab
+                environments, and CTF-style challenges.
               </li>
               <li>
-                Help interns improve methodology, enumeration workflow, reporting quality,
-                and responsible use of offensive security tools.
+                Help interns improve methodology, enumeration workflow, reporting quality, and responsible use of
+                offensive security tools.
               </li>
               <li>
-                Provide mentorship around real-world attack chains — from recon and exploitation
-                to privilege escalation and remediation planning.
+                Provide mentorship around real-world attack chains from recon and exploitation to privilege escalation
+                and remediation planning.
               </li>
               <li>
-                Contribute write-ups, lab insights, and best-practice guidance to the program.
+                Contribute writeups, lab insights, and best-practice guidance to the program.
               </li>
             </ul>
           </div>
@@ -275,20 +244,22 @@
             <p class="timeline-meta">Hack Secure · India · Oct 2024 – Dec 2024</p>
             <ul>
               <li>
-                Performed vulnerability scans and directory enumeration to identify
-                exposed hosts, services, and configuration weaknesses.
+                Performed vulnerability scans and directory enumeration to identify exposed hosts, services, and
+                configuration weaknesses.
+
               </li>
               <li>
-                Conducted web and network penetration tests using Metasploit, Burp Suite,
-                Nmap and Wireshark in guided scenarios.
+                Conducted web and network penetration tests using Metasploit, Burp Suite, Nmap and Wireshark in guided
+                scenarios.
+
+              <li>
+                Cracked password hashes with Hashcat and reported weak credential patterns and risks to stakeholders.
+
               </li>
               <li>
-                Cracked password hashes with Hashcat and reported weak credential patterns
-                and risks to stakeholders.
-              </li>
-              <li>
-                Produced structured security assessment reports and collaborated with
-                development and security teams on remediation plans.
+                Produced structured security assessment reports and collaborated with development and security teams on
+                remediation plans.
+
               </li>
             </ul>
           </div>
@@ -297,287 +268,227 @@
     </div>
   </section>
 
-  <!-- Projects & CTFs -->
-  <section id="projects" class="section section-alt reveal">
+
+  <!-- Certifications & Achievements -->
+  <section id="certs" class="section reveal">
     <div class="container">
-      <h2 class="section-title">Labs &amp; Capture the Flag Work</h2>
+      <h2 class="section-title">Certifications</h2>
+      <div id="certifications-grid" class="certifications-grid">
+        <!-- Certifications will be rendered here by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Achievements</h2>
+      <div id="achievements-grid" class="certifications-grid">
+        <!-- Achievements will be rendered here by script.js -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Medium Blog Section -->
+  <section id="blog" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Medium Blog</h2>
       <p class="section-intro">
-        A snapshot of the offensive security labs and CTF projects I use to build
-        and demonstrate my skills in realistic attack scenarios.
+        I write about offensive security labs, CTF walkthroughs, and practical
+        penetration testing workflows. Here are a few recent posts.
       </p>
 
       <div class="projects-grid">
-        <article class="project-card reveal">
-          <div class="project-header">
-            <span class="project-pill">CTF</span>
-            <h3>Hack Secure WAR HOMELAB – 1st Place</h3>
-          </div>
-          <p>
-            End-to-end compromise of a lab environment, including host and service
-            enumeration, exploitation, lateral movement and privilege escalation.
-            Documented full attack paths and mitigation guidance.
-          </p>
-          <ul class="project-tags">
-            <li>Internal Attack Paths</li>
-            <li>Privilege Escalation</li>
-            <li>Windows / Linux</li>
-          </ul>
-        </article>
+        <!-- Post 1 -->
+        <a class="blog-card-link"
+          href="https://medium.com/@rakib_nadir/advanced-powershell-security-defense-in-depth-and-adversarial-bypasses-e1d35a12b792"
+          target="_blank" rel="noopener">
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="image/powershell.webp" alt="Advanced PowerShell Security Medium article cover" loading="lazy" />
+            </div>
+            <div class="project-header">
+              <span class="project-pill">Medium</span>
+              <h3>
+                Advanced PowerShell Security: Defense in Depth &amp; Adversarial Bypasses
+              </h3>
+            </div>
+            <p>
+              Deep dive into hardening PowerShell, layering defensive controls,
+              and understanding how modern adversaries attempt to bypass them in
+              real-world attack chains.
+            </p>
+            <ul class="project-tags">
+              <li>PowerShell</li>
+              <li>Defense in Depth</li>
+              <li>Detection &amp; Evasion</li>
+            </ul>
+          </article>
+        </a>
+
+        <!-- Post 2 -->
+        <a class="blog-card-link" href="https://medium.com/@rakib_nadir/hack-the-box-querier-writeup-f53f05cd09c6"
+          target="_blank" rel="noopener">
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="image/querier.webp" alt="Hack The Box Querier write-up cover" loading="lazy" />
+            </div>
+            <div class="project-header">
+              <span class="project-pill">Medium</span>
+              <h3>
+                Hack The Box: Querier – Full Walkthrough
+              </h3>
+            </div>
+            <p>
+              A full step-by-step walkthrough of the HTB machine “Querier”,
+              covering enumeration, exploitation, privilege escalation, and key
+              takeaways for improving your methodology.
+            </p>
+            <ul class="project-tags">
+              <li>Hack The Box</li>
+              <li>Windows Exploitation</li>
+              <li>Privilege Escalation</li>
+            </ul>
+          </article>
+        </a>
+
+        <!-- Post 3 -->
+        <a class="blog-card-link" href="https://medium.com/@rakib_nadir/tryhackme-startup-ctf-write-up-8a2ced838e51"
+          target="_blank" rel="noopener">
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="image/startup.webp" alt="TryHackMe Startup CTF write-up cover" loading="lazy" />
+            </div>
+            <div class="project-header">
+              <span class="project-pill">Medium</span>
+              <h3>
+                TryHackMe: Startup – CTF Write-Up
+              </h3>
+            </div>
+            <p>
+              A practical CTF write-up for the “Startup” room on TryHackMe,
+              walking through web exploitation, lateral movement, and flag
+              recovery in a small-business style environment.
+            </p>
+            <ul class="project-tags">
+              <li>TryHackMe</li>
+              <li>Web Exploitation</li>
+              <li>CTF Walkthrough</li>
+            </ul>
+          </article>
+        </a>
+      </div>
+
+      <div class="hero-buttons" style="margin-top: 2rem;">
+        <a href="https://medium.com/@rakib_nadir" target="_blank" rel="noopener" class="btn outline">
+          Read more on Medium
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects & CTFs -->
+  <section id="projects" class="section section-alt reveal">
+    <div class="container">
+      <h2 class="section-title">Attack Simulations &amp; Lab Work</h2>
+      <p class="section-intro">
+        A selected portfolio of complex engagement simulations and advanced laboratory attacks.
+      </p>
+
+      <div class="projects-grid">
 
         <article class="project-card reveal">
           <div class="project-header">
-            <span class="project-pill">Lab</span>
+            <span class="project-pill">Infrastructure</span>
             <h3>Active Directory Attack Lab</h3>
           </div>
           <p>
-            Built an AD lab to practice reconnaissance, Kerberoasting, password
-            attacks and misconfigured privilege abuse, based on modern AD hacking
-            material and CTF experiences.
+            Built an AD lab to practice reconnaissance, Kerberoasting, password attacks and misconfigured privilege
+            abuse, based on modern AD hacking material and CTF experiences.
           </p>
           <ul class="project-tags">
-            <li>Active Directory</li>
-            <li>Red Team Basics</li>
-            <li>Windows</li>
+            <li>ADCS Abuse</li>
+            <li>Kerberos Attacks</li>
+            <li>Defensive Hardening</li>
           </ul>
         </article>
 
         <article class="project-card reveal">
           <div class="project-header">
-            <span class="project-pill">Lab</span>
-            <h3>OWASP Top 10 Exploitation</h3>
+            <span class="project-pill">Web App</span>
+            <h3>Production Web App Assessment</h3>
           </div>
           <p>
-            Tested deliberately vulnerable web applications to exploit common
-            OWASP Top 10 issues: injection, XSS, IDOR, and weak authentication and
-            session management, then wrote remediation notes for each.
+            Black-box assessment of a multi-tenant web application using OWASP methodology, conducted in a controlled
+            virtual machine environment. Identified and validated critical vulnerabilities including XSS, IDOR,
+            authentication and authorization flaws, and SQL injection, demonstrating realistic attack impact across
+            tenant boundaries.
           </p>
           <ul class="project-tags">
             <li>Burp Suite</li>
-            <li>Web Pentest</li>
-            <li>OWASP Top 10</li>
+            <li>IDOR / XSS</li>
+            <li>Account Takeover</li>
           </ul>
         </article>
 
         <article class="project-card reveal">
           <div class="project-header">
             <span class="project-pill">Lab</span>
-            <h3>Network Recon &amp; Exploitation Practice</h3>
+            <h3>Network Recon &amp; Exploitation</h3>
           </div>
           <p>
-            Used Nmap and Metasploit to identify vulnerable services, craft
-            payloads, and perform controlled exploitation followed by log review
-            and hardening suggestions to reduce future risk.
+            Advanced manual enumeration and exploitation of legacy services. Crafted custom payloads to bypass basic AV
+            signatures and performed post-exploitation data exfiltration simulation.
           </p>
           <ul class="project-tags">
-            <li>Nmap</li>
-            <li>Metasploit</li>
-            <li>Post-Exploitation</li>
+            <li>Manual Exploitation</li>
+            <li>AV Evasion</li>
+            <li>Data Exfiltration</li>
           </ul>
         </article>
       </div>
     </div>
-    <!-- Certifications & Achievements -->
-    <section id="certs" class="section reveal">
-      <div class="container certs-grid">
-        <!-- Certifications column -->
-        <div>
-          <h2 class="section-title">Certifications</h2>
-          <ul class="cert-list">
-            <li><strong>CRTP – Certified Red Team Professional</strong>, Altered Security (Jan 2026) <a
-                href="https://www.credential.net/0d6a3790-31ad-479f-8d39-bb2b137c362f#acc.IwxeF4Um" target="_blank"
-                rel="noopener" class="profile-btn">Verify</a></li>
-            <li><strong>eJPT – Junior Penetration Tester</strong>, INE (Aug 2025) <a
-                href="https://certs.ine.com/fe373fe2-8c13-4e7a-a823-a235ae2f9700#acc.gOsExWMA" target="_blank"
-                rel="noopener" class="profile-btn">Verify</a></li>
-            <li><strong>CRTA – Certified Red Team Analyst</strong>, CyberWarFare Labs (Sept 2025) <a
-                href="https://labs.cyberwarfare.live/credential/achievement/68c8dd1a40a4bd67bdcba0c7" target="_blank"
-                rel="noopener" class="profile-btn">Verify</a></li>
-            <li><strong>CNSP – Certified Network Security Practitioner</strong>, Pentesting Exams (Dec 2025) <a
-                href="https://candidate.speedexam.net/certificate.aspx?SSTATE=am4131EniU8ntjp4bO5mXWylSHxVEdPoseGvIue1kLosShxNyKFht9j+6povCfxxB/NerA5o6lpUfw3Via/ofwUtfItkU5c+P5IX8h8vM6E="
-                target="_blank" rel="noopener" class="profile-btn">Verify</a></li>
-            <li><strong>CJWPT – Certified Junior Web Penetration Tester</strong>, Hack &amp; Fix (Aug)</li>
-            <li><strong>Networking Certification Essentials</strong>, IT Masters (Apr 2025)</li>
-
-          </ul>
-        </div>
-
-        <!-- Achievements column -->
-        <div>
-          <h2 class="section-title">Achievements</h2>
-          <ul class="cert-list">
-            <li>
-              1. 1st Place – Hack Secure CTF WAR HOMELAB (Apr 2025)
-
-              <a href="https://certificate.givemycertificate.com/c/9ed756ff-9ce6-4cf3-b3bf-f2e38574b8c3" target="_blank"
-                rel="noopener" class="profile-btn">
-                Verify
-              </a>
-
-              <div class="cert-thumb">
-                <a href="https://certificate.givemycertificate.com/c/9ed756ff-9ce6-4cf3-b3bf-f2e38574b8c3"
-                  target="_blank" rel="noopener">
-                  <img src="image/cert.png" alt="Hack Secure CTF WAR HOMELAB 1st Place Certificate" loading="lazy" />
-                </a>
-              </div>
-            </li>
+  </section>
 
 
-            <li>
-              2. Ranked top 2% on TryHackMe
-              <a href="https://tryhackme.com/p/rakibnadir" target="_blank" rel="noopener" class="profile-btn">
-                Profile
-              </a>
-            </li>
-
-            <li>
-              3. Script Kiddie rank on Hack The Box
-              <a href="https://app.hackthebox.com/users/2253987" target="_blank" rel="noopener" class="profile-btn">
-                Profile
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Medium Blog Section -->
-    <section id="blog" class="section reveal">
-      <div class="container">
-        <h2 class="section-title">Medium Blog</h2>
+  <!-- Contact -->
+  <section id="contact" class="section section-alt reveal">
+    <div class="container contact-grid">
+      <div>
+        <h2 class="section-title">Contact</h2>
         <p class="section-intro">
-          I write about offensive security labs, CTF walkthroughs, and practical
-          penetration testing workflows. Here are a few recent posts.
+          I’m open to opportunities as a Junior Penetration Tester, Red Team Trainee,
+          or Security Analyst (offensive focus). If you are looking for someone who
+          can methodically attack and help harden your environment, let’s talk.
         </p>
-
-        <div class="projects-grid">
-          <!-- Post 1 -->
-          <a class="blog-card-link"
-            href="https://medium.com/@rakib_nadir/advanced-powershell-security-defense-in-depth-and-adversarial-bypasses-e1d35a12b792"
-            target="_blank" rel="noopener">
-            <article class="project-card reveal">
-              <div class="project-image">
-                <img src="image/powershell.webp" alt="Advanced PowerShell Security Medium article cover"
-                  loading="lazy" />
-              </div>
-              <div class="project-header">
-                <span class="project-pill">Medium</span>
-                <h3>
-                  Advanced PowerShell Security: Defense in Depth &amp; Adversarial Bypasses
-                </h3>
-              </div>
-              <p>
-                Deep dive into hardening PowerShell, layering defensive controls,
-                and understanding how modern adversaries attempt to bypass them in
-                real-world attack chains.
-              </p>
-              <ul class="project-tags">
-                <li>PowerShell</li>
-                <li>Defense in Depth</li>
-                <li>Detection &amp; Evasion</li>
-              </ul>
-            </article>
-          </a>
-
-          <!-- Post 2 -->
-          <a class="blog-card-link" href="https://medium.com/@rakib_nadir/hack-the-box-querier-writeup-f53f05cd09c6"
-            target="_blank" rel="noopener">
-            <article class="project-card reveal">
-              <div class="project-image">
-                <img src="image/querier.webp" alt="Hack The Box Querier write-up cover" loading="lazy" />
-              </div>
-              <div class="project-header">
-                <span class="project-pill">Medium</span>
-                <h3>
-                  Hack The Box: Querier – Full Walkthrough
-                </h3>
-              </div>
-              <p>
-                A full step-by-step walkthrough of the HTB machine “Querier”,
-                covering enumeration, exploitation, privilege escalation, and key
-                takeaways for improving your methodology.
-              </p>
-              <ul class="project-tags">
-                <li>Hack The Box</li>
-                <li>Windows Exploitation</li>
-                <li>Privilege Escalation</li>
-              </ul>
-            </article>
-          </a>
-
-          <!-- Post 3 -->
-          <a class="blog-card-link" href="https://medium.com/@rakib_nadir/tryhackme-startup-ctf-write-up-8a2ced838e51"
-            target="_blank" rel="noopener">
-            <article class="project-card reveal">
-              <div class="project-image">
-                <img src="image/startup.webp" alt="TryHackMe Startup CTF write-up cover" loading="lazy" />
-              </div>
-              <div class="project-header">
-                <span class="project-pill">Medium</span>
-                <h3>
-                  TryHackMe: Startup – CTF Write-Up
-                </h3>
-              </div>
-              <p>
-                A practical CTF write-up for the “Startup” room on TryHackMe,
-                walking through web exploitation, lateral movement, and flag
-                recovery in a small-business style environment.
-              </p>
-              <ul class="project-tags">
-                <li>TryHackMe</li>
-                <li>Web Exploitation</li>
-                <li>CTF Walkthrough</li>
-              </ul>
-            </article>
-          </a>
-        </div>
-
-        <div class="hero-buttons" style="margin-top: 2rem;">
-          <a href="https://medium.com/@rakib_nadir" target="_blank" rel="noopener" class="btn outline">
-            Read more on Medium
-          </a>
-        </div>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:sec.rakibnadir@gmail.com">sec.rakibnadir@gmail.com</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+8801785029110">+880&nbsp;1785&nbsp;029&nbsp;110</a></li>
+          <li>
+            <strong>LinkedIn:</strong>
+            <a href="https://linkedin.com/in/rakib-nadir" target="_blank" rel="noopener">
+              linkedin.com/in/rakib-nadir
+            </a>
+          </li>
+          <li><strong>Location:</strong> Jamalpur, Bangladesh</li>
+        </ul>
       </div>
-    </section>
+    </div> <!-- end .container -->
+  </section> <!-- end #contact -->
 
-
-    <!-- Contact -->
-    <section id="contact" class="section section-alt reveal">
-      <div class="container contact-grid">
-        <div>
-          <h2 class="section-title">Contact</h2>
-          <p class="section-intro">
-            I’m open to opportunities as a Junior Penetration Tester, Red Team Trainee,
-            or Security Analyst (offensive focus). If you are looking for someone who
-            can methodically attack and help harden your environment, let’s talk.
-          </p>
-          <ul class="contact-list">
-            <li><strong>Email:</strong> <a href="mailto:rakibnadir@gmail.com">rakibnadir@gmail.com</a></li>
-            <li><strong>Phone:</strong> <a href="tel:+8801785029110">+880&nbsp;1785&nbsp;029&nbsp;110</a></li>
-            <li>
-              <strong>LinkedIn:</strong>
-              <a href="https://linkedin.com/in/rakib-nadir" target="_blank" rel="noopener">
-                linkedin.com/in/rakib-nadir
-              </a>
-            </li>
-            <li><strong>Location:</strong> Jamalpur, Bangladesh</li>
-          </ul>
-        </div>
-      </div> <!-- end .container -->
-    </section> <!-- end #contact -->
-
-    <!-- Footer -->
-    <footer class="site-footer">
-      <div class="container footer-flex">
-        <p>© <span id="year"></span> Rakib Mahmud Nadir · Offensive Security Portfolio.</p>
-        <div class="footer-links">
-          <a href="https://linkedin.com/in/rakib-nadir" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="#hero">Back to top ↑</a>
-        </div>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <p>© <span id="year"></span> Rakib Mahmud Nadir · Offensive Security Portfolio.</p>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/rakib-nadir" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#hero">Back to top ↑</a>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
