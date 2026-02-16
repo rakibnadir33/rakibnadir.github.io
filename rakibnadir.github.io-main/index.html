@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rakib Mahmud Nadir | Offensive Security & Penetration Testing</title>
+  <meta name="description"
+    content="Offensive security portfolio of Rakib Mahmud Nadir – junior penetration tester specializing in web and network security, Active Directory assessments and red team style attack simulations." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Background Video -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline id="bg-video">
+      <source src="Video/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+  <div class="noise-overlay"></div>
+
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="image/logo.png" alt="Rakib Nadir Logo" class="logo-img">
+        <span class="logo-text">Rakib Nadir</span>
+      </div>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#offsec">Offensive Security</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#community">Community & Speaking</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero reveal">
+    <div class="container hero-grid">
+      <!-- Left -->
+      <div class="hero-text">
+        <p class="hero-tag">Offensive Security · Penetration Testing · Red Team</p>
+
+        <div class="hero-title-wrap">
+          <h1 class="hero-title">
+            Helping you find vulnerabilities before attackers do.
+          </h1>
+          <div class="hero-title-glow"></div>
+        </div>
+
+        <p class="hero-subtitle">
+          Junior Penetration Tester specializing in web and network security, Active Directory assessments, and
+          realistic adversary-style attack simulations.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn neutral">View Attack Simulations</a>
+          <a href="#offsec" class="btn neutral">Review Methodology</a>
+          <a href="Rakib_Nadir_2026.pdf" download class="btn primary cv-download">
+            <span class="icon">↓</span> Download Resume
+          </a>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div class="hero-right">
+        <div class="hero-card">
+          <p class="hero-card-label">Profile Snapshot</p>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">Focus</span>
+              <span class="stat-label">Enterprise Security </span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">Role</span>
+              <span class="stat-label">Penetration Tester</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">Status</span>
+              <span class="stat-label">Certified (CRTP, eJPT, CRTA, CNSP)</span>
+            </div>
+          </div>
+
+          <div class="hero-card-footer">
+            <span class="hero-pill">Active Directory</span>
+            <span class="hero-pill">Web Security</span>
+            <span class="hero-pill">Network Security</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll to About Me</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section reveal">
+    <div class="container section-grid">
+
+      <!-- LEFT — About text -->
+      <div class="about-content">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          I am an offensive security practitioner focused on web application security, network penetration testing and
+          Active Directory
+          assessments. My work emphasizes manual enumeration, attack-path discovery and controlled
+          exploitation to demonstrate how real-world breaches occur, rather than relying solely on automated scanning
+          tools. My experience is built through extensive hands-on practice in realistic lab environments, Active
+          Directory test networks and CTF-style scenarios. I specialize in identifying misconfigurations, abusing
+          identity and access weaknesses, and validating exploitation paths across web and internal networks. Beyond
+          exploitation, I document root causes and provide clear remediation guidance to help defensive teams reduce
+          real risk, while currently pursuing my studies at Khulna University of Engineering and Technology (KUET)
+          in Khulna, Bangladesh.
+
+        </p>
+      </div>
+
+      <!-- RIGHT — Profile Image -->
+      <div class="about-media">
+        <div class="about-photo-card">
+          <img src="image/rakib.png" alt="Rakib Mahmud Nadir portrait" class="about-photo" />
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll to view methodology</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Offensive Security Focus -->
+  <section id="offsec" class="section section-alt reveal">
+    <div class="container">
+      <h2 class="section-title">Offensive Security Methodology</h2>
+      <p class="section-intro">
+        Adversary-aligned testing focused on realistic attack paths and business risk.
+      </p>
+
+      <div class="kill-chain">
+        <div class="kill-step">
+          <span class="step-id">01</span>
+          <h3>Reconnaissance</h3>
+          <p>
+            Identify exposed assets and entry points.
+          </p>
+        </div>
+        <div class="kill-step">
+          <span class="step-id">02</span>
+          <h3>Initial Access</h3>
+          <p>
+            Gain controlled footholds through misconfigurations or logic flaws.
+          </p>
+        </div>
+        <div class="kill-step">
+          <span class="step-id">03</span>
+          <h3>Post-Exploitation</h3>
+          <p>
+            Escalate privileges and move laterally to demonstrate impact.
+          </p>
+        </div>
+        <div class="kill-step">
+          <span class="step-id">04</span>
+          <h3>Reporting</h3>
+          <p>
+            Document attack paths and remediation priorities.
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Assistant Mentor — Offensive Security (Remote)</h3>
+            <p class="timeline-meta">Hack Secure · India · Dec 2024 — Present</p>
+            <ul>
+              <li>
+                Guide and support cybersecurity interns through structured penetration-testing exercises, lab
+                environments, and CTF-style challenges.
+              </li>
+              <li>
+                Help interns improve methodology, enumeration workflow, reporting quality, and responsible use of
+                offensive security tools.
+              </li>
+              <li>
+                Provide mentorship around real-world attack chains from recon and exploitation to privilege escalation
+                and remediation planning.
+              </li>
+              <li>
+                Contribute writeups, lab insights, and best-practice guidance to the program.
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Cybersecurity Intern (Remote)</h3>
+            <p class="timeline-meta">Hack Secure · India · Oct 2024 – Dec 2024</p>
+            <ul>
+              <li>
+                Performed vulnerability scans and directory enumeration to identify exposed hosts, services, and
+                configuration weaknesses.
+
+              </li>
+              <li>
+                Conducted web and network penetration tests using Metasploit, Burp Suite, Nmap and Wireshark in guided
+                scenarios.
+
+              <li>
+                Cracked password hashes with Hashcat and reported weak credential patterns and risks to stakeholders.
+
+              </li>
+              <li>
+                Produced structured security assessment reports and collaborated with development and security teams on
+                remediation plans.
+
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Certifications & Achievements -->
+  <section id="certs" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <div id="certifications-grid" class="certifications-grid">
+        <!-- Certifications will be rendered here by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Achievements</h2>
+      <div id="achievements-grid" class="certifications-grid">
+        <!-- Achievements will be rendered here by script.js -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="section section-alt reveal">
+    <div class="container">
+      <h2 class="section-title">Attack Simulations &amp; Lab Work</h2>
+      <p class="section-intro">
+        A selected portfolio of complex engagement simulations and advanced laboratory attacks.
+      </p>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="PDF/cover_report.png" alt="Web Application Penetration Testing Report Cover" loading="lazy" />
+          </div>
+          <div class="project-header">
+            <span class="project-pill">Pentest Report</span>
+            <h3>Web Application Penetration Testing Report</h3>
+          </div>
+          <p>
+            Comprehensive assessment detailing critical web vulnerabilities, impact analysis, and remediation strategies
+            for hardening business-critical applications.
+          </p>
+          <ul class="project-tags">
+            <li>Web Pentest</li>
+            <li>Vulnerability Assessment</li>
+            <li>Remediation</li>
+          </ul>
+          <div class="project-actions" style="margin-top: 1.25rem;">
+            <a href="PDF/Web-Application-Penetration-Testing-Report.pdf" download class="btn primary cv-download">
+              <span class="icon">↓</span> Download Report
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="professional images/harvest.jpg" alt="Remote & Local Credential Harvesting Lab Cover"
+              loading="lazy" />
+          </div>
+          <div class="project-header">
+            <span class="project-pill">Red Team Lab</span>
+            <h3>Remote & Local Credential Harvesting in AD</h3>
+          </div>
+          <p>
+            Controlled AD lab demonstrating harvesting techniques using Mimikatz and Overpass-the-Hash. Focused on
+            lateral movement and privilege escalation in a realistic environment.
+          </p>
+          <ul class="project-tags">
+            <li>Red Teaming</li>
+            <li>AD Security</li>
+            <li>Kerberos / NTLM</li>
+            <li>Mimikatz</li>
+          </ul>
+          <div class="project-actions" style="margin-top: 1.25rem;">
+            <a href="https://www.linkedin.com/posts/rakib-nadir_cybersecurity-ethicalhacking-activedirectory-activity-7392831584179175424-GSJV"
+              target="_blank" rel="noopener" class="btn primary cv-download">
+              <span class="icon">→</span> View Attack Walkthrough
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="professional images/unconstrained.png" alt="Kerberos Unconstrained Delegation Lab Cover"
+              loading="lazy" />
+          </div>
+          <div class="project-header">
+            <span class="project-pill">Red Team Lab</span>
+            <h3>Kerberos Unconstrained Delegation Abuse</h3>
+          </div>
+          <p>
+            Simulated "double-hop" attacks using printer triggers to capture TGTs, demonstrating how delegated services
+            can lead to total domain-wide privilege escalation.
+          </p>
+          <ul class="project-tags">
+            <li>AD Security</li>
+            <li>Kerberos</li>
+            <li>Delegation Abuse</li>
+            <li>Privilege Escalation</li>
+          </ul>
+          <div class="project-actions" style="margin-top: 1.25rem;">
+            <a href="https://www.linkedin.com/posts/rakib-nadir_activedirectory-kerberos-delegation-activity-7398313053513142272-wkYq"
+              target="_blank" rel="noopener" class="btn primary cv-download">
+              <span class="icon">→</span> View Attack Walkthrough
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="professional images/adminsdholder.png" alt="AdminSDHolder Persistence Lab Cover" loading="lazy" />
+          </div>
+          <div class="project-header">
+            <span class="project-pill">Red Team Lab</span>
+            <h3>AdminSDHolder Persistence & ACL Security</h3>
+          </div>
+          <p>
+            Analyzed AD persistence via AdminSDHolder and SDProp. Demonstrated how modifying protected ACLs grants
+            persistent access by overriding standard permission inheritance.
+          </p>
+          <ul class="project-tags">
+            <li>AD Persistence</li>
+            <li>ACL Security</li>
+            <li>SDProp</li>
+            <li>Privilege Escalation</li>
+          </ul>
+          <div class="project-actions" style="margin-top: 1.25rem;">
+            <a href="https://www.linkedin.com/posts/rakib-nadir_activedirectory-adminsdholder-privilegeescalation-activity-7395079195841921024-E574"
+              target="_blank" rel="noopener" class="btn primary cv-download">
+              <span class="icon">→</span> View Attack Walkthrough
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Community & Speaking -->
+  <section id="community" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Community & Speaking</h2>
+      <p class="section-intro">
+        Engaging with the cybersecurity community through webinars, workshops, and speaking engagements.
+      </p>
+
+      <div class="timeline" style="margin-top: 2rem;">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="speaking-grid">
+              <div class="speaking-text">
+                <h3>Speaker — Cybersecurity Essentials & Career Guidelines</h3>
+                <p class="timeline-meta">February 15, 2026 · Live Online Webinar</p>
+                <p>
+                  Delivered a structured cybersecurity session covering attack fundamentals, defensive awareness, and
+                  career development for aspiring security professionals.
+                </p>
+
+                <h4 style="font-size: 0.9rem; color: var(--text-heading); margin-bottom: 0.3rem; font-weight: 500;">Key
+                  Topics:</h4>
+                <ul>
+                  <li>Cybersecurity basics and ethical hacking boundaries</li>
+                  <li>Common attacks: Phishing, Malware, DoS, SQLi, XSS</li>
+                  <li>Career paths and certification roadmap</li>
+                  <li>Portfolio building and resume strategy</li>
+                </ul>
+              </div>
+
+              <!-- Webinar Poster Image -->
+              <div class="speaking-image">
+                <img src="image/webinar_poster.jpg" alt="Cybersecurity Essentials & Career Guidelines Webinar Poster"
+                  class="speaking-poster">
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Medium Blog Section -->
+  <section id="blog" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Medium Blog</h2>
+      <p class="section-intro">
+        I write about offensive security labs, CTF walkthroughs, and practical
+        penetration testing workflows. Here are a few recent posts.
+      </p>
+
+      <div class="projects-grid">
+        <!-- Post 1 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="image/powershell.webp" alt="Advanced PowerShell Security Medium article cover" loading="lazy" />
+          </div>
+          <div class="project-header">
+            <span class="project-pill">Medium</span>
+            <h3>
+              Advanced PowerShell Security: Defense in Depth &amp; Adversarial Bypasses
+            </h3>
+          </div>
+          <p>
+            Deep dive into hardening PowerShell and layering defensive controls to counter modern adversarial bypass
+            techniques.
+          </p>
+          <ul class="project-tags">
+            <li>PowerShell</li>
+            <li>Defense in Depth</li>
+            <li>Detection &amp; Evasion</li>
+          </ul>
+          <div class="project-actions" style="margin-top: 1.25rem;">
+            <a href="https://medium.com/@rakib_nadir/advanced-powershell-security-defense-in-depth-and-adversarial-bypasses-e1d35a12b792"
+              target="_blank" rel="noopener" class="btn primary cv-download">
+              <span class="icon">→</span> View Full Blog
+            </a>
+          </div>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="image/querier.webp" alt="Hack The Box Querier write-up cover" loading="lazy" />
+          </div>
+          <div class="project-header">
+            <span class="project-pill">Medium</span>
+            <h3>
+              Hack The Box: Querier – Full Walkthrough
+            </h3>
+          </div>
+          <p>
+            Step-by-step walkthrough of the HTB Querier machine, covering Windows enumeration, exploitation, and
+            privilege escalation.
+          </p>
+          <ul class="project-tags">
+            <li>Hack The Box</li>
+            <li>Windows Exploitation</li>
+            <li>Privilege Escalation</li>
+          </ul>
+          <div class="project-actions" style="margin-top: 1.25rem;">
+            <a href="https://medium.com/@rakib_nadir/hack-the-box-querier-writeup-f53f05cd09c6" target="_blank"
+              rel="noopener" class="btn primary cv-download">
+              <span class="icon">→</span> View Full Blog
+            </a>
+          </div>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="image/startup.webp" alt="TryHackMe Startup CTF write-up cover" loading="lazy" />
+          </div>
+          <div class="project-header">
+            <span class="project-pill">Medium</span>
+            <h3>
+              TryHackMe: Startup – CTF Write-Up
+            </h3>
+          </div>
+          <p>
+            Practical CTF write-up for the Startup room, covering web exploitation and lateral movement in a
+            small-business lab.
+          </p>
+          <ul class="project-tags">
+            <li>TryHackMe</li>
+            <li>Web Exploitation</li>
+            <li>CTF Walkthrough</li>
+          </ul>
+          <div class="project-actions" style="margin-top: 1.25rem;">
+            <a href="https://medium.com/@rakib_nadir/tryhackme-startup-ctf-write-up-8a2ced838e51" target="_blank"
+              rel="noopener" class="btn primary cv-download">
+              <span class="icon">→</span> View Full Blog
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="hero-buttons" style="margin-top: 2rem;">
+        <a href="https://medium.com/@rakib_nadir" target="_blank" rel="noopener" class="btn outline">
+          Read more on Medium
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt reveal">
+    <div class="container contact-left">
+      <div>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-intro">
+          I’m open to opportunities as a Junior Penetration Tester, Red Team Trainee,
+          or Security Analyst (offensive focus). If you are looking for someone who
+          can methodically attack and help harden your environment, let’s talk.
+        </p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:sec.rakibnadir@gmail.com">sec.rakibnadir@gmail.com</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+8801785029110">+880&nbsp;1785&nbsp;029&nbsp;110</a></li>
+          <li>
+            <strong>LinkedIn:</strong>
+            <a href="https://linkedin.com/in/rakib-nadir" target="_blank" rel="noopener">
+              linkedin.com/in/rakib-nadir
+            </a>
+          </li>
+          <li><strong>Location:</strong> Jamalpur, Bangladesh</li>
+        </ul>
+      </div>
+    </div> <!-- end .container -->
+  </section> <!-- end #contact -->
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <p>© <span id="year"></span> Rakib Mahmud Nadir · Offensive Security Portfolio.</p>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/rakib-nadir" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#hero">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
