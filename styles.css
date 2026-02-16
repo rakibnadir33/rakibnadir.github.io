@@ -1397,3 +1397,79 @@ a:hover {
     padding: 0;
   }
 }
+
+/* ===== Community & Speaking Two-Column Layout ===== */
+.speaking-grid {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.speaking-text {
+  flex: 0 0 60%;
+}
+
+.speaking-image {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.speaking-poster {
+  width: auto;
+  max-width: 100%;
+  max-height: 280px;
+  /* Aligns with condensed text height */
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-md);
+  object-fit: contain;
+}
+
+/* Compact Refinement (Matches Experience Style) */
+.speaking-compact .timeline-content {
+  padding: 1.5rem;
+  /* ~24px */
+}
+
+.speaking-compact h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.speaking-compact .timeline-meta {
+  margin-bottom: 0.75rem;
+}
+
+.speaking-compact p {
+  margin-bottom: 1rem;
+}
+
+.speaking-compact ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .speaking-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .speaking-text,
+  .speaking-image {
+    flex: 0 0 100%;
+  }
+
+  .speaking-image {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .speaking-poster {
+    width: 100%;
+    max-width: 320px;
+  }
+}
