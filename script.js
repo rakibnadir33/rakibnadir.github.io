@@ -195,7 +195,7 @@ const certifications = [
     date: 'January 2026',
     image: 'image/CRTP.jpg',
     proof: 'Credential ID: 0d6a3790',
-    link: 'https://www.credential.net/0d6a3790-d10e-42c2-8e2e-23f600fddecb'
+    link: 'https://www.credential.net/0d6a3790-31ad-479f-8d39-bb2b137c362f#acc.IwxeF4Um'
   },
   {
     title: 'eJPT – Junior Penetration Tester',
@@ -203,7 +203,7 @@ const certifications = [
     date: 'August 2025',
     image: 'image/eJPT.jpg',
     proof: 'Credential ID: fe373fe2',
-    link: 'https://certs.ine.com/fe373fe2-3073-4e8d-824a-3c5e0d6b09b3'
+    link: 'https://certs.ine.com/fe373fe2-8c13-4e7a-a823-a235ae2f9700#acc.gOsExWMA'
   },
   {
     title: 'CRTA – Certified Red Team Analyst',
@@ -211,7 +211,7 @@ const certifications = [
     date: 'September 2025',
     image: 'image/CRTA.jpg',
     proof: 'Credential verified',
-    link: 'https://labs.cyberwarfare.live/badge/image/6703ab1a06f625b2b5db0d26'
+    link: 'https://labs.cyberwarfare.live/credential/achievement/68c8dd1a40a4bd67bdcba0c7'
   },
   {
     title: 'CNSP – Certified Network Security Practitioner',
@@ -219,7 +219,7 @@ const certifications = [
     date: 'December 2025',
     image: 'image/CNSP.jpg',
     proof: 'Credential verified',
-    link: 'https://candidate.speedexam.net/certificate.aspx?SESSION=5x1ls455lvt5545345f5p5f5a555i4y4q1p'
+    link: 'https://candidate.speedexam.net/certificate.aspx?SSTATE=am4131EniU8ntjp4bO5mXWylSHxVEdPoseGvIue1kLosShxNyKFht9j+6povCfxxB/NerA5o6lpUfw3Via/ofwUtfItkU5c+P5IX8h8vM6E='
   }
 ];
 
@@ -231,7 +231,7 @@ const achievements = [
     date: 'April 2025',
     image: 'image/cert.png',
     proof: 'First place in CTF competition',
-    link: null
+    link: 'https://certificate.givemycertificate.com/c/9ed756ff-9ce6-4cf3-b3bf-f2e38574b8c3'
   },
   {
     title: 'Ranked Top 2% on TryHackMe',
