@@ -1181,6 +1181,7 @@ img {
   .about-image {
     max-width: 300px;
     margin: 0 auto;
+    order: -1;
   }
 
   .tools-categories {
